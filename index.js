@@ -1,18 +1,18 @@
-function scuberGreetingForFeet(){
+function scuberGreetingForFeet(distance){
 
-  if (scuberGreetingForFeet <= 400) {
+  if (distance <=400) {
 
-    console.log ('This one is on me!');
+  return 'This one is on me!';
   }
 
-  else if (scuberGreetingForFeet > 2000) {
+  else if (distance > 2000 && distance <2500) {
   
-    console.log ('I will gladly take your thirty bucks.');
+    return 'I will gladly take your thirty bucks.';
 
   }
-  else (scuberGreetingForFeet > 2500) ;{
+  else (distance > 2500) ;{
 
-    console.log ('No can do.');
+    return 'No can do.';
   }
 }
 
